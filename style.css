@@ -1,0 +1,97 @@
+body {
+    font-family: Marker Felt, fantasy sans-serif;
+}
+
+h1 {
+  font-size: 50px;px;
+}
+
+.game-title {
+    text-align: center;
+}
+
+.scoreboard {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.game-grid {
+    width: 500px;
+    margin: 0 auto;
+    min-height: 300px;
+    background-color: #D8120D;
+  }
+  
+  .game-over {
+      display: flex;
+  }
+
+  .game-over.hide {
+      display: none;
+  }
+
+  .game-over p {
+      color: white;
+  }
+
+  .game-over button {
+      margin-top: 10px;
+      height: 30px;
+  }
+  
+  .game-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .game-card {
+    width: 85px;
+    height: 125px;
+    background-color: goldenrod;
+    justify-self: center;
+    margin: 15px 0;
+  }
+  
+  .inner-card {
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+  }
+  
+  .inner-card.show {
+    display: block;
+  }
+  
+  .inner-card.show.match {
+      background-color: dodgerblue;
+  }
+
+  .inner-card.show.no-match {
+      background-color: red;
+  }
+
+  .inner-card i {
+    font-size: 60px;
+    line-height: 120px;
+  }
+
+.green {
+  color: green;
+}
+
+.red {
+  color:#D8120D;
+}
+
+
+
+
+
+
